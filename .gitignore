@@ -1,0 +1,42 @@
+# Java, Spring Boot, Maven y Gradle
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+!gradle-wrapper.jar
+!maven-wrapper.jar
+
+# Angular y Node.js
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Registros y archivos temporales
+*.log
+*.tmp
+
+# Variables de entorno y configuración local
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+*.local
+
+# Editores e IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
